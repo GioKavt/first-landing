@@ -87,8 +87,6 @@ body {
 }
 
 .latest-posts h2 {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 48px;
   line-height: 56px;
@@ -98,6 +96,22 @@ body {
 .latest-posts h2 a {
   text-decoration: none;
   color: #16b8f3;
+}
+
+.latest-posts {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 80px 145px;
+}
+
+.lp-article {
+  display: flex;
+  flex-direction: column;
+  width: 369px;
+  height: 518px;
+  background: rgba(30, 41, 59, 0.4);
+  border-radius: 20px;
 }
 
 .footer {
