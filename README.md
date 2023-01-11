@@ -2,4 +2,4 @@
 
 main file - index.html
 
-assets folder contains images and styles.css
+assets folder contains images and style.css
