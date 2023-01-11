@@ -83,23 +83,12 @@ body {
   margin-bottom: 90px;
 }
 
-.latest-posts h2 {
-  font-weight: 700;
-  font-size: 48px;
-  line-height: 56px;
-  color: #f8fafc;
-}
-
-.latest-posts h2 a {
-  text-decoration: none;
-  color: #16b8f3;
-}
-
 .latest-posts {
   display: flex;
   flex-direction: row;
   gap: 20px;
   padding: 80px 145px;
+  width: 1440px;
 }
 
 .lp-article {
@@ -109,6 +98,27 @@ body {
   height: 518px;
   background: rgba(30, 41, 59, 0.4);
   border-radius: 20px;
+}
+
+.lp-article h4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #f8fafc;
+  text-align: center;
+  padding: 25px 80px 5px 80px;
+}
+
+.lp-article p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #9ca3af;
+  text-align: center;
+}
+
+.indent-p {
+  padding: 15px;
 }
 
 .footer {
