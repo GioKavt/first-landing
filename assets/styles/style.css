@@ -38,8 +38,7 @@ body {
   margin: 98px 0 0 144px;
 }
 
-.main h2 a {
-  text-decoration: none;
+.main h2 span {
   color: #16b8f3;
 }
 
